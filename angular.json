@@ -22,12 +22,24 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/img"
             ],
             "styles": [
-              "src/styles.css"
+              "src/style.css",
+              "src/fontawesome/css/all.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/jquery.min.js",
+              "src/js/popper.min.js",
+              "src/js/bootstrap.min.js",
+              "src/js/bundle.js",
+              "src/js/default-assets/active.js",
+              "src/js/canvas.js",
+              "src/js/collapse.js",
+              "src/js/settings.js",
+              "src/js/template.js"
+            ]
           },
           "configurations": {
             "production": {
